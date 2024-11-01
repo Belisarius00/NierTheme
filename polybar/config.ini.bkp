@@ -1,0 +1,12 @@
+include-file = ~/.config/polybar/modules/powermenu.ini
+include-file = ~/.config/polybar/modules/base_modules.ini
+
+[bar/example]
+width = 100%
+height = 30
+offset-y = 10%
+background = #222
+foreground = #dfdfdf
+modules-left = powermenu
+modules-center = date
+modules-right = xworkspaces
